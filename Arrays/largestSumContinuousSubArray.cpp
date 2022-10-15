@@ -4,8 +4,24 @@ using namespace std;
 int maxSubArraySum(int a[], int size)
 {
     int max_so_far = INT_MIN, max_ending_here = 0;
- 
-    for (int i = 0; i < size; i++) {
+    // we considered case when all numbers are nagative and in this case max_nag will be maxSubArraySum
+    bool all_nag = true;
+    int max_nag = 100000;
+      for(int i = 0; i<size; i++){
+          if(a[i] < 0){
+          if(max_nag < a[i]){
+              max_nag = a[i];
+          }
+          }
+         if(a[i] > 0){
+           all_nag = false;
+         }
+      }
+         if(all_nag){
+           return max_nag;
+         }
+          
+          for (int i = 0; i < size; i++) {
         max_ending_here = max_ending_here + a[i];
         if (max_so_far < max_ending_here)
             max_so_far = max_ending_here;
