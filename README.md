@@ -1,3 +1,6 @@
+####Hei please create your own issue. like which Stack question you want to solve. I will assign that issue to you and add the required labels also. And also please link the pr with your issue.
+
+
 ![Hacktoberfest](https://res.cloudinary.com/practicaldev/image/fetch/s--ds97LCK---/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ymlmr15l83rrjq8natft.jpg)
 
 # Beginner's Guide to Hacktoberfest
@@ -65,7 +68,7 @@ git push origin -u your-branch-name
 
 ### Step - 10:
 
-Create Pull Request
+Create Pull Request & Link your issue.
 
 ### Step - 11:
 
